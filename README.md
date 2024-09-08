@@ -21,8 +21,8 @@ This repository contains the code for an e-commerce management system built usin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/kyyutt/UserCart
-   cd UserCart
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
    ```
 
 2. Install dependencies:

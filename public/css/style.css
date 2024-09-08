@@ -1,0 +1,99 @@
+.bg-image {
+    background-image: url('/img/bg.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the background covers the entire div */
+    background-position: center; /* Centers the background image */
+    height: 550px; /* Adjust height as needed */
+  }
+
+.bg-gray {
+  background-color: rgb(243, 245, 247);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2); /* Background transparan di belakang teks */
+  z-index: 1;
+}
+
+.position-relative img {
+  z-index: 0;
+}
+.scroll-container {
+  overflow-x: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  margin-bottom: 20px;
+  height: 5px; /* Tinggi scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #343839; /* Warna batang scrollbar */
+  border-radius: 10px; /* Sudut melengkung batang scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Latar belakang track scrollbar */
+  border-radius: 10px; /* Sudut melengkung track scrollbar */
+}
+.grid-item {
+  background-color: rgb(243, 245, 247); /* Warna abu-abu terang */
+  height: 200px; /* Tinggi sembarang */
+}
+.icon-large{
+  font-size: 2.6rem;
+}
+.bg-card-image{
+  background-color: rgb(243, 245, 247);
+  height: 300px;
+}
+footer {
+  padding: 20px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 4px;
+}
+
+footer ul li{
+  list-style: none;
+}
+footer a:hover {
+  color: #f0f0f0;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bg-newslatter{
+  background-image: url('/img/newlatter.png');
+  background-size: cover; /* Agar gambar memenuhi area */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.input-group-text, .form-control, .btn {
+  background-color: transparent;
+  border: none;
+
+}
+
+.form-control:focus, .btn:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #000; /* Ubah warna border bawah saat focus */
+}
