@@ -89,7 +89,7 @@
   </section>
 
   <!-- Section 4: Features -->
-  <section class="row g-3 my-3">
+  <section class="row g-3 mt-3 mb-4">
     <div class="col-6 col-lg-3">
       <div class="grid-item d-flex flex-column justify-content-center align-items-center">
         <i class="bi bi-truck icon-large"></i>
@@ -122,10 +122,10 @@
 
   <!-- Section 5: Promotional Banner -->
   <section class="row g-0">
-    <div class="col-12 col-lg-6 my-3">
+    <div class="col-12 col-lg-6">
       <img src="/img/banner.png" alt="Banner" class="img-fluid">
     </div>
-    <div class="col-12 col-lg-6 bg-gray d-flex flex-column justify-content-center align-items-center my-3">
+    <div class="col-12 col-lg-6 bg-gray d-flex flex-column justify-content-center align-items-center pb-5">
       <div class="w-50 mt-sm-4">
         <p class="text-primary">SALE UP TO 35% OFF</p>
         <h1>HUNDREDS of New lower prices!</h1>
@@ -134,23 +134,23 @@
       </div>
     </div>
   </section>
-
-  <!-- Section 6: Newsletter Signup -->
-  <section class="row justify-content-center bg-newslatter text-center mt-3">
-    <div class="col-md-5">
-      <h1>Join Our Newsletter</h1>
-      <p>Sign up for deals, new products, and promotions</p>
-      <form>
-        <div class="input-group">
-          <span class="input-group-text">
-            <i class="bi bi-envelope"></i>
-          </span>
-          <input type="email" class="form-control" placeholder="Email address" aria-label="Email">
-          <button class="btn btn-outline-secondary btn-sm" type="button">Signup</button>
-        </div>
-      </form>
-    </div>
-  </section>
 </div>
+<!-- Section 6: Newsletter Signup -->
+<section class="row justify-content-center bg-newslatter text-center mt-5">
+  <div class="col-md-5">
+    <h1>Join Our Newsletter</h1>
+    <p>Sign up for deals, new products, and promotions</p>
+    <form>
+      <div class="input-group">
+        <span class="input-group-text">
+          <i class="bi bi-envelope"></i>
+        </span>
+        <input type="email" class="form-control" placeholder="Email address" aria-label="Email">
+        <button class="btn btn-outline-secondary btn-sm" type="button">Signup</button>
+      </div>
+    </form>
+  </div>
+</section>
+
 
 <?= $this->endSection(); ?>

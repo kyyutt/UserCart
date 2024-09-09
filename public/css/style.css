@@ -97,3 +97,14 @@ footer h5 {
   box-shadow: none;
   border-bottom: 1px solid #000; /* Ubah warna border bawah saat focus */
 }
+.header-about{
+  font-size: 3.5rem;
+}
+@media (max-width: 990px) {
+  .navbar-nav .nav-item {
+    margin-left: 1rem; /* Add margin only on smaller screens */
+  }
+  .header-about{
+    font-size: 2rem;
+  }
+}
